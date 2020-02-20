@@ -1,0 +1,19 @@
+@import '_settings.scss';
+
+body {
+    font-family: $font-family;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;        
+    justify-content: center;
+}
+
+.title {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px black;
+}
